@@ -1,0 +1,71 @@
+{
+  "name": "John Doe",
+  "location": "San Francisco, CA",
+  "phone": "+1 123-456-7890",
+  "email": "johndoe@example.com",
+  "links": {
+    "GitHub": "https://github.com/johndoe",
+    "LinkedIn": "https://linkedin.com/in/johndoe"
+  },
+  "headline": "Software Engineer | 5+ Years Experience | Cloud & Backend Specialist",
+  "summary": [
+    "Experienced in designing and developing scalable backend applications.",
+    "Proficient in Python, JavaScript, and Go with expertise in cloud platforms like AWS and GCP.",
+    "Passionate about DevOps, CI/CD automation, and system architecture."
+  ],
+  "experience": [
+    {
+      "company_name": "TechCorp",
+      "title": "Senior Software Engineer",
+      "date": "Jan 2022 - Present",
+      "description": [
+        "Developed microservices for high-traffic applications, handling over 1M requests/day.",
+        "Implemented API gateway using Kong for service communication and authentication.",
+        "Optimized database queries, reducing response time by 30%."
+      ],
+      "contribution": [
+        {
+          "Key Achievements": [
+            "Led the migration from a monolithic system to microservices architecture.",
+            "Automated infrastructure provisioning with Terraform and Kubernetes."
+          ]
+        }
+      ]
+    },
+    {
+      "company_name": "StartupX",
+      "title": "Software Engineer",
+      "date": "July 2019 - Dec 2021",
+      "description": [
+        "Developed RESTful APIs using FastAPI and Express.js.",
+        "Integrated payment gateways (Stripe, PayPal) for seamless transactions.",
+        "Implemented caching strategies with Redis for improved performance."
+      ],
+      "contribution": [
+        {
+          "Product Impact": [
+            "Built a real-time notification system using WebSockets and RabbitMQ."
+          ]
+        }
+      ]
+    }
+  ],
+  "skills": {
+    "management_skills": ["Agile methodologies", "Sprint Planning", "JIRA"],
+    "technical_skills": {
+      "Programming": ["Python", "JavaScript", "Go"],
+      "Web": ["Node.js", "Express.js", "Django", "FastAPI"],
+      "Databases": ["PostgreSQL", "MongoDB", "Redis"],
+      "Cloud": ["AWS", "Google Cloud"],
+      "DevOps": ["Docker", "Kubernetes", "Terraform"],
+      "Monitoring": ["Prometheus", "Grafana", "New Relic"]
+    }
+  },
+  "education": [
+    {
+      "institution": "University of California, Berkeley",
+      "degree": "Bachelor of Science in Computer Science",
+      "year": "2015 - 2019"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+# 📄 Resume Builder (PDF Generator)
+
+A simple **Resume PDF Generator** using **Python** and **ReportLab**.
+It takes a **JSON file** as input and generates a **formatted PDF resume**.
+
+## ✨ Features
+- Generates a clean, structured **PDF resume** from a JSON file.
+- Supports **Experience, Skills, Education, Summary, and Contributions**.
+- Uses **bold styling** for section titles and skill categories.
+- Allows **command-line arguments** for input and output files.
+
+## 📥 Installation
+
+### 1️⃣ Clone the Repository
+```sh
+git clone git@github.com:saurabh-saha/resumeBuilder.git
+cd resumeBuilder

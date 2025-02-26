@@ -1,0 +1,7 @@
+# Ignore all JSON and PDF files
+*.json
+*.pdf
+.idea
+# Keep specific files
+!sample.json
+!sample.pdf
