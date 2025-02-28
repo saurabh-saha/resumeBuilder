@@ -1,5 +1,10 @@
 # 📄 Resume Builder (PDF Generator)
 
+v2
+ python main.py input/simple.txt output/emoji.pdf --layout simple
+
+----
+v1
 A simple **Resume PDF Generator** using **Python** and **ReportLab**.
 It takes a **JSON file** as input and generates a **formatted PDF resume**.
 
@@ -15,3 +20,4 @@ It takes a **JSON file** as input and generates a **formatted PDF resume**.
 ```sh
 git clone git@github.com:saurabh-saha/resumeBuilder.git
 cd resumeBuilder
+
