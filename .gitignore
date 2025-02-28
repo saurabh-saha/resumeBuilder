@@ -3,8 +3,10 @@
 *.pdf
 .idea
 # Keep specific files
-!input/sample.json
-!output/sample.pdf
+!input/sample_base.json
+!input/sample_two_column.json
+!output/sample_base.pdf
+!output/sample_two_column.pdf
 __PYCACHE__
 .DS_STORE
 *.html
