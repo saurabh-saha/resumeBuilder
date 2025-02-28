@@ -2,7 +2,6 @@ import json
 import argparse
 
 from templates.base_template import BaseTemplate
-from templates.simple_template import convert_txt_to_pdf
 from resume import Resume
 from templates.two_column_template import TwoColumnTemplate, LayoutConfig
 
@@ -22,5 +21,6 @@ if __name__ == "__main__":
     elif args.layout == "base":
         config = LayoutConfig(font_body=10)
         pdf_generator = BaseTemplate(resume_obj, args.output_file, config)
+
     pdf_generator.generate_pdf()
     print(f"Resume saved as {args.output_file}")
