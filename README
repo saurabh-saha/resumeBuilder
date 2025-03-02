@@ -1,12 +1,7 @@
 # 📄 Resume Builder (PDF Generator)
 
-v2
- python main.py input/simple.txt output/emoji.pdf --layout simple
-
-----
-v1
-A simple **Resume PDF Generator** using **Python** and **ReportLab**.
-It takes a **JSON file** as input and generates a **formatted PDF resume**.
+python main.py input/sample.json output/sample_base.pdf --layout base
+python main.py input/sample.json output/sample_two_column.pdf --layout two_column
 
 ## ✨ Features
 - Generates a clean, structured **PDF resume** from a JSON file.
